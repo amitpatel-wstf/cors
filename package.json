@@ -1,5 +1,5 @@
 {
-  "name": "@your-org/cors",
+  "name": "@amitpatel-wstf/cors",
   "version": "1.0.0",
   "description": "Node.js CORS middleware with TypeScript support",
   "main": "dist/index.js",
@@ -20,11 +20,11 @@
     "cross-origin",
     "http"
   ],
-  "author": "Your Name",
+  "author": "Amit Patel",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-org/cors"
+    "url": "https://github.com/amitpatel-wstf/cors.git"
   },
   "files": [
     "dist"

@@ -17,7 +17,7 @@ A flexible and feature-rich CORS (Cross-Origin Resource Sharing) middleware for 
 ## Installation
 
 ```bash
-npm install @your-org/cors
+npm install @amitpatel-wstf/cors
 ```
 
 ## Quick Start
@@ -26,7 +26,7 @@ npm install @your-org/cors
 
 ```typescript
 import express from 'express';
-import cors from '@your-org/cors';
+import cors from '@amitpatel-wstf/cors';
 
 const app = express();
 
@@ -341,7 +341,7 @@ For preflight requests (OPTIONS method), the middleware:
 This package includes full TypeScript type definitions:
 
 ```typescript
-import cors, { CorsOptions, CorsOptionsDelegate } from '@your-org/cors';
+import cors, { CorsOptions, CorsOptionsDelegate } from '@amitpatel-wstf/cors';
 
 const options: CorsOptions = {
   origin: 'http://example.com',
@@ -398,11 +398,11 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Author
 
-Your Name
+Amit Patel
 
 ## Repository
 
-https://github.com/your-org/cors
+https://github.com/amitpatel-wstf/cors
 
 ## Related
 

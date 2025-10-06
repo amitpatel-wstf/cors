@@ -23,7 +23,7 @@ npm install @your-org/cors
 
 ```typescript
 import express from 'express';
-import cors from '@your-org/cors';
+import cors from '@am/cors';
 
 const app = express();
 
