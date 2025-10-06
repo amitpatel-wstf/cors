@@ -48,7 +48,6 @@ Thumbs.db
 # ================================
 
 # Source files
-src/
 *.ts
 !*.d.ts
 
