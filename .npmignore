@@ -1,0 +1,108 @@
+# .gitignore
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+
+# Temporary files
+*.tmp
+.cache/
+tmp/
+
+# OS
+Thumbs.db
+
+# ================================
+# .npmignore
+# (Create this as a separate file)
+# ================================
+
+# Source files
+src/
+*.ts
+!*.d.ts
+
+# Tests
+tests/
+**/*.test.ts
+**/*.spec.ts
+*.test.js
+*.spec.js
+
+# Configuration files
+tsconfig.json
+.eslintrc.js
+.prettierrc
+.editorconfig
+jest.config.js
+
+# Documentation (optional - include README.md)
+examples/
+docs/
+
+# Development files
+.github/
+.vscode/
+.idea/
+
+# CI/CD
+.travis.yml
+.gitlab-ci.yml
+azure-pipelines.yml
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Logs and temporary files
+*.log
+*.tmp
+.cache/
+coverage/
+.nyc_output/
+
+# Environment
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Lock files (optional - some prefer to include)
+package-lock.json
+yarn.lock
+
+# Only publish dist/ and essential files
+# The package.json "files" field handles inclusion
